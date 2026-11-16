@@ -33,11 +33,11 @@ Após a inicialização, a API estará disponível em:
 
 http://localhost:3000
 
-### Como testar
+## Como testar
 
 Os testes podem ser realizados utilizando PowerShell, Postman ou Insomnia. Teste com:
 
-Testando a API com Insomnia
+1. Testando a API com Insomnia
 
 Os testes da API podem ser realizados pelo Insomnia, uma ferramenta que permite enviar requisições HTTP e visualizar as respostas.
 
@@ -80,7 +80,7 @@ Utilize a URL, substituindo ID_DO_PEDIDO pelo ID retornado na criação:
 
 http://localhost:3000/orders/ID_DO_PEDIDO
 
-Ou seja, se o por exemplo o IDorder do pedido for 1, utilize:
+Ou seja, se o por exemplo o ID do pedido for 1, utilize:
 
 http://localhost:3000/orders/1 para ver o primeiro pedido.
 
